@@ -19,7 +19,6 @@ console.log("Задание 2");
 let squareSide = 5;
 let rectWidth = 45;
 let rectHeight = 21;
-
 let countByWidth = Math.floor(rectWidth / squareSide);
 let countByHeight = Math.floor(rectHeight / squareSide);
 let total = countByWidth * countByHeight;
@@ -35,10 +34,10 @@ debugger;
 
 console.log("Задание 4");
 console.log("Котик" === "котик" ? "Равны" : "Не равны");
-console.log("→ Объяснение: Строки чувствительны к регистру\n");
+console.log("Объяснение: Строки чувствительны к регистру\n");
 
 console.log("Котик" === "китик" ? "Равны" : "Не равны");
-console.log("→ Объяснение: Разные символы ('о' vs 'и')\n");
+console.log("Объяснение: Разные символы ('о' vs 'и')\n");
 
 console.log("Кот" === "Котик" ? "Равны" : "Не равны");
 console.log("Объяснение: Разная длина строк\n");
@@ -104,34 +103,34 @@ if (russian && math && english) {
 
 console.log("Задание 7");
 console.log("1. true + true =", true + true);
-console.log("→ Объяснение: true преобразуется в 1, 1 + 1 = 2\n");
+console.log("Объяснение: true преобразуется в 1, 1 + 1 = 2\n");
 
 console.log("2. 0 + \"5\" =", 0 + "5");
-console.log("→ Объяснение: Число 0 преобразуется в строку \"0\", конкатенация строк: \"0\" + \"5\" = \"05\"\n");
+console.log("Объяснение: Число 0 преобразуется в строку \"0\", конкатенация строк: \"0\" + \"5\" = \"05\"\n");
 
 console.log("3. 5 + \"MM\" =", 5 + "MM");
-console.log("→ Объяснение: Число 5 преобразуется в строку \"5\", конкатенация: \"5\" + \"MM\" = \"5MM\"\n");
+console.log("Объяснение: Число 5 преобразуется в строку \"5\", конкатенация: \"5\" + \"MM\" = \"5MM\"\n");
 
 console.log("4. 8/Infinity =", 8/Infinity);
-console.log("→ Объяснение: Деление на бесконечность дает 0\n");
+console.log("Объяснение: Деление на бесконечность дает 0\n");
 
 console.log("5. 9 * \"\\n9\" =", 9 * "\n9");
-console.log("→ Объяснение: Строка \"\\n9\" преобразуется в число 9 (символ новой строки игнорируется), 9 * 9 = 81\n");
+console.log("Объяснение: Строка \"\\n9\" преобразуется в число 9 (символ новой строки игнорируется), 9 * 9 = 81\n");
 
 console.log("6. null - 1 =", null - 1);
-console.log("→ Объяснение: null преобразуется в 0, 0 - 1 = -1\n");
+console.log("Объяснение: null преобразуется в 0, 0 - 1 = -1\n");
 
 console.log("7. \"5\" - 2 =", "5" - 2);
-console.log("→ Объяснение: Строка \"5\" преобразуется в число 5, 5 - 2 = 3\n");
+console.log("Объяснение: Строка \"5\" преобразуется в число 5, 5 - 2 = 3\n");
 
 console.log("8. \"5px\" - 3 =", "5px" - 3);
-console.log("→ Объяснение: Строка \"5px\" не может быть преобразована в число → NaN, NaN - 3 = NaN\n");
+console.log("Объяснение: Строка \"5px\" не может быть преобразована в число → NaN, NaN - 3 = NaN\n");
 
 console.log("9. true - 3 =", true - 3);
-console.log("→ Объяснение: true преобразуется в 1, 1 - 3 = -2\n");
+console.log("Объяснение: true преобразуется в 1, 1 - 3 = -2\n");
 
 console.log("10. 7 || 0 =", 7 || 0);
-console.log("→ Объяснение: Оператор || возвращает первое истинное значение. 7 - истина, поэтому возвращает 7\n");
+console.log("Объяснение: Оператор || возвращает первое истинное значение. 7 - истина, поэтому возвращает 7\n");
 
 console.log("Задание 8");
 
@@ -168,7 +167,7 @@ if (chosenDay === null || chosenDay.trim() === "") {
     }
 }
 
-const daysArr = ["вс", "пн", "вт", "ср", "чт", "пт", "сб"];
+const daysArr = ["вс", "пн", "вт", "ср", "чт", "пт", "сб", "вс"];
 
 let num = Number(prompt("МАССИВ: Введите номер дня (1-7):", ""));
 
@@ -189,7 +188,7 @@ let userParam = prompt("Введите третий параметр:", "");
 if (userParam === null || userParam.trim() === "") {
     alert("Вы отменили ввод или ничего не ввели.");
 } else {
-    let result = createString("Первый параметр", "Второй параметр", userParam);
+    let result = createString(undefined, "Второй параметр", userParam);
     alert(`Результат: "${result}"`);
 }
 
@@ -222,14 +221,14 @@ let a_sqr = 5;
 let b_sqr = 5;
 
 console.log(`Квадрат (${a_sqr}, ${b_sqr}):`);
-console.log(`  Declaration: ${paramsDeclaration(a_sqr, b_sqr)}`);
-console.log(`  Expression:  ${paramsExpression(a_sqr, b_sqr)}`);
-console.log(`  Arrow:       ${paramsArrow(a_sqr, b_sqr)}`);
+console.log(`Declaration: ${paramsDeclaration(a_sqr, b_sqr)}`);
+console.log(`Expression:  ${paramsExpression(a_sqr, b_sqr)}`);
+console.log(`Arrow:       ${paramsArrow(a_sqr, b_sqr)}`);
 
 let a_rect = 5;
 let b_rect = 8;
 
-console.log(`\nПрямоугольник (${a_rect}, ${a_rect}):`);
-console.log(`  Declaration: ${paramsDeclaration(a_rect, b_rect)}`);
-console.log(`  Expression:  ${paramsExpression(a_rect, b_rect)}`);
-console.log(`  Arrow:       ${paramsArrow(a_rect, b_rect)}`);
+console.log(`\nПрямоугольник (${a_rect}, ${b_rect}):`);
+console.log(`Declaration: ${paramsDeclaration(a_rect, b_rect)}`);
+console.log(`Expression:  ${paramsExpression(a_rect, b_rect)}`);
+console.log(`Arrow:       ${paramsArrow(a_rect, b_rect)}`);
