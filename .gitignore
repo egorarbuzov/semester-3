@@ -1,6 +1,49 @@
-# Prerequisites
-**/.DS_Store
+# ==========================================
+# Rider / JetBrains IDE
+# ==========================================
+.idea/
+*.sln.iml
+*.user
+*.suo
+*.userprefs
+*.DotSettings.user
+_ReSharper*/
+*.[Rr]e[Ss]harper
 
+# ==========================================
+# .NET / C# Build Results
+# ==========================================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.binlog
+*.cache
+*.tlog
+*.buildlog
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio (на случай, если откроют в VS)
+.vs/
+*.rsuser
+*.userosscache
+*.sln.docstates
+*.user
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# ==========================================
+# Prerequisites (ваш блок)
+# ==========================================
+**/.DS_Store
 *.d
 
 # Compiled Object files
