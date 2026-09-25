@@ -49,6 +49,7 @@ function reverseAndFilter(str) {
 
 console.log("Задание 5");
 console.log(reverseAndFilter("he3llo87427"));
+console.log(reverseAndFilter("JavaScr53э? ipt"))
 
 function printStringNtimes(str, amount) {
     let newStr = "";

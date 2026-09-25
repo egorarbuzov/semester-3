@@ -2,7 +2,7 @@
 
 class Logger
 {
-    static public int InstanceCount;
+    private static int InstanceCount;
 
     public Logger()
     {

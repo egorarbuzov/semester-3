@@ -64,6 +64,35 @@ class MyArray
     }
 }
 
+public static class StringExtensions
+{
+    public static bool IsPalindrome(this string str)
+    {
+        if (string.IsNullOrEmpty(str)) return true;
+
+        string cleaned = str.Replace(" ", "").ToLower();
+        
+        return cleaned == cleaned.Reverse();
+    }
+
+    public static int CountWords(this string str)
+    {
+        if (string.IsNullOrWhiteSpace(str)) return 0;
+
+        return str.Split(' ', '.', ',', '!', '?')
+            .Count(w => w.Length > 0);
+    }
+
+    public static string Reverse(this string str)
+    {
+        if (string.IsNullOrEmpty(str)) return str;
+
+        char[] chars = str.ToCharArray();
+        Array.Reverse(chars);
+        return new string(chars);
+    }
+}
+
 class Program
 {
     static void Main()
@@ -93,8 +122,15 @@ class Program
         Console.WriteLine("a != b: " + (a != b));
         Console.WriteLine("a == d: " + (a == d));
         
-            MyArray e = a + d;
-        e.Print();
+
+        Console.WriteLine();
+        
+        string word = "шалаш";
+        string text = "Hello, world! How are you?";
+
+        Console.WriteLine($"{word} — палиндром? {word.IsPalindrome()}");
+        Console.WriteLine($"Слов в '{text}': {text.CountWords()}");
+        Console.WriteLine($"'{text}' наоборот: {text.Reverse()}");
         
     }
 }
