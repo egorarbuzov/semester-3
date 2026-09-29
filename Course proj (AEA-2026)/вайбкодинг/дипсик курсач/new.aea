@@ -1,5 +1,0 @@
-main {
-    print("Hello world!");
-    uint8 a = 32;
-    print(a);
-}
