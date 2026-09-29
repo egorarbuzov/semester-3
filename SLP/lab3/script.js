@@ -153,7 +153,29 @@ function createStorageBar(used, limit, length) {
     return '#'.repeat(filled) + '-'.repeat(empty);
 }
 
+function createStorageReport(storages, length) {
+    return storages.map(storage => {
+        const { user, used, limit } = storage;
+
+        const bar = createStorageBar(used, limit, length);
+
+        if (bar === 'Некорректные данные') {
+            return `${user}: Некорректные данные`;
+        }
+
+        const percent = Math.round((used / limit) * 100);
+        return `${user}: ${bar} ${percent}%`;
+    });
+}
+
 console.log(createStorageBar(20, 100, 10));
 console.log(createStorageBar(50, 100, 10));
 console.log(createStorageBar(100, 100, 10)); 
 console.log(createStorageBar(-1, 100, 10));  
+
+const storages = [
+    { user: 'Анна', used: 45, limit: 60 },
+    { user: 'Максим', used: 100, limit: 100 },
+];
+
+console.log(createStorageReport(storages, 10));
