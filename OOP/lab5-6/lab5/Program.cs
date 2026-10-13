@@ -12,7 +12,19 @@
 
     public virtual void MakeSound(bool isDay)
     {
-        Console.WriteLine($"{Name} издает звук");
+        if (isDay)
+        {
+            Console.WriteLine($"{Name} издает звук");
+        }
+        else
+        {
+            Console.WriteLine($"{Name} спит");
+        }
+    }
+    
+    public void Eat()
+    {
+        Console.WriteLine($"{Name} ест (вес: {Weight} кг)");
     }
 }
 
@@ -38,7 +50,10 @@ class Cat : Animal {
 
     public override void MakeSound(bool isDay)
     {
-        if (isDay) { Console.WriteLine($"{Name} : мяу-мяу-мяу"); }
+        if (isDay)
+        {
+            Console.WriteLine($"{Name} : мяу-мяу-мяу");
+        }
         else
         {
             Console.WriteLine($"{Name} : хр-хр-хр ммм");
@@ -55,7 +70,7 @@ class Program
         Dog b = new Dog("Бобик", 12, 1.2);
         Cat c = new Cat("Мяу", 8, 2.5);
         
-        a.MakeSound(false);
+        a.MakeSound(true);
         b.MakeSound(true);
         c.MakeSound(false);
     }

@@ -9,13 +9,13 @@
         {
             if (string.IsNullOrEmpty(value))
             {
-                throw new Exception("Имя не может быть пустым!");
+                throw new Exception("Имя должно быть задано");
             }
             name = value;
         }
     }
-    public string manufacturer { get; set; }
-    public DateTime manufactureDate { get; set; }
+    private string manufacturer { get; set; }
+    private DateTime manufactureDate { get; set; }
 
     protected MusicalInstrument(string name, string manufacturer, DateTime manufactureDate)
     {
@@ -35,12 +35,12 @@ class Guitar : MusicalInstrument
     
     public override void Play()
     {
-        Console.WriteLine($"{name_pub} гитара играет!");
+        Console.WriteLine($"{name_pub}: дзынь-дзынь! Перебор по струнам.");
     }
 
     public override void Tune()
     {
-        Console.WriteLine($"{name_pub} гитара настроена");
+        Console.WriteLine($"{name_pub}: подтягиваем колки, проверяем строй.");
     }
 }
 
@@ -51,12 +51,12 @@ class Piano : MusicalInstrument
 
     public override void Play()
     {
-        Console.WriteLine($"{name_pub} пианино играет");
+        Console.WriteLine($"{name_pub}: плим-плим! Играем аккордами.");
     }
 
     public override void Tune()
     {
-        Console.WriteLine($"{name_pub} пианино настроено");
+        Console.WriteLine($"{name_pub}: мастер настраивает по камертону.");
     }
 }
 
@@ -67,12 +67,12 @@ class Violin : MusicalInstrument
 
     public override void Play()
     {
-        Console.WriteLine($"{name_pub} скрипка играет");
+        Console.WriteLine($"{name_pub}: и-и-иу! Играем смычком с вибрато.");
     }
 
     public override void Tune()
     {
-        Console.WriteLine($"{name_pub} скрипка настроена");
+        Console.WriteLine($"{name_pub}: настраиваем по квинтам.");
     }
 }
 
@@ -80,14 +80,25 @@ class Program
 {
     static void Main(string[] args)
     {
-        Guitar guitar = new Guitar("Гитара 1", "Производитель 1", DateTime.Today);
-        guitar.Play();
-        guitar.Tune();
-        Piano piano = new Piano("Пианино 1", "Производитель 2",  DateTime.Today);
-        piano.Play();
-        piano.Tune();
-        Violin violin = new Violin("Скрипка 1", "Производитель 3", DateTime.Today);
-        violin.Play();
-        violin.Tune();
+        MusicalInstrument[] orchestra =
+        {
+            new Guitar("Fender", "Fender", new DateTime(2020, 5, 1)),
+            new Piano("Yamaha", "Yamaha", new DateTime(2018, 9, 15)),
+            new Violin("Страдивари", "Страдивари", new DateTime(2015, 3, 10))
+        };
+        
+        foreach (var instr in orchestra)
+        {
+            instr.Play();
+        }
+
+        foreach (var instr in orchestra)
+        {
+            instr.Tune();
+        }
+
+        try { orchestra[0].name_pub = ""; }
+        catch (Exception ex) { Console.WriteLine($"Ошибка: {ex.Message}"); }
+
     }
 }

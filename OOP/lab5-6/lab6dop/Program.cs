@@ -222,22 +222,22 @@ class Program
         savings.AccrueInterest(3, 1234);
         Console.WriteLine($"После 3 месяцев процентов: {savings.Balance}");
 
-        Console.WriteLine($"\nРасчётный №{checking.BalanceNumber}");
+        Console.WriteLine($"Расчётный №{checking.BalanceNumber}");
         checking.Withdraw(1000m, 2222);
         Console.WriteLine($"После снятия 1000 (комиссия 50): {checking.Balance}");
 
-        Console.WriteLine($"\nКредитный №{credit.BalanceNumber}");
+        Console.WriteLine($"Кредитный №{credit.BalanceNumber}");
         credit.Withdraw(20000m, 3333);
         Console.WriteLine($"После снятия 20000: баланс {credit.Balance}, долг {credit.Debt}");
 
         credit.AccrueInterest(2, 3333);
         Console.WriteLine($"После 2 месяцев процентов: баланс {credit.Balance}, долг {credit.Debt}");
         
-        Console.WriteLine("\nПробуем неверный PIN 3 раза...");
+        Console.WriteLine("Пробуем неверный PIN 3 раза...");
         for (int i = 1; i <= 3; i++)
         {
             try { checking.Withdraw(100m, 9999); }
-            catch (Exception ex) { Console.WriteLine($"  Попытка {i}: {ex.Message}"); }
+            catch (Exception ex) { Console.WriteLine($"Попытка {i}: {ex.Message}"); }
         }
 
         Console.WriteLine($"Счёт заблокирован: {checking.IsBlocked}");
