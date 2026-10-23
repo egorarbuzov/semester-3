@@ -13,22 +13,22 @@ class UnknownOperationException : Exception
 
 class Calculator
 {
-    public double Add(double a, double b)
+    public decimal Add(decimal a, decimal b)
     {
         return a + b;
     }
 
-    public double Subtract(double a, double b)
+    public decimal Subtract(decimal a, decimal b)
     {
         return a - b;
     }
 
-    public double Multiply(double a, double b)
+    public decimal Multiply(decimal a, decimal b)
     {
         return a * b;
     }
 
-    public double Divide(double a, double b)
+    public decimal Divide(decimal a, decimal b)
     {
         if (b == 0)
         {
@@ -64,12 +64,12 @@ class Program
                 }
 
                 Console.Write("Введите первое число: ");
-                double a = double.Parse(Console.ReadLine());
+                decimal a = decimal.Parse(Console.ReadLine());
 
                 Console.Write("Введите второе число: ");
-                double b = double.Parse(Console.ReadLine());
+                decimal b = decimal.Parse(Console.ReadLine());
 
-                double result = 0;
+                decimal result = 0;
 
                 if (op == "+")
                 {

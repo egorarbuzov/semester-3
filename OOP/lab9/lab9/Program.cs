@@ -2,8 +2,6 @@
 
 class NegativeNumberException : Exception
 {
-    public double Number { get; set; }
-
     public NegativeNumberException() : base() { }
 
     public NegativeNumberException(string message) : base(message) { }
@@ -45,7 +43,7 @@ class Program
             }
             finally
             {
-                Console.WriteLine("Блок finally выполнен (очистка ресурсов)");
+                Console.WriteLine("Блок finally выполнен");
             }
         }
     }
@@ -54,9 +52,7 @@ class Program
     {
         if (number < 0)
         {
-            NegativeNumberException ex = new NegativeNumberException($"Нельзя взять корень из отрицательного числа. Получено: {number}");
-            ex.Number = number;
-            throw ex;
+            throw new NegativeNumberException($"Нельзя взять корень из отрицательного числа.");
         }
         else
         {
@@ -80,8 +76,7 @@ class Program
         }
         catch (NegativeNumberException ex)
         {
-            Console.WriteLine($"Перехвачено исключение: {ex.Message}");
-            Console.WriteLine($"Некорректное число: {ex.Number}");
+            Console.WriteLine($"Исключение: {ex.Message}");
         }
     }
 }
