@@ -12,30 +12,27 @@ int main() {
         return 0;
     }
 
-    // Выделяем массивы динамически (vector запрещён условием)
-    int* a    = new int[n];   // исходная последовательность
-    int* dp   = new int[n];   // длины подпоследовательностей
-    int* prev = new int[n];   // предки для восстановления
+    int* a = new int[n];
+    int* dp = new int[n];
+    int* prev = new int[n];
 
     cout << "Введите " << n << " элементов: ";
     for (int i = 0; i < n; ++i) {
         cin >> a[i];
     }
 
-    // ---- Динамическое программирование ----
     for (int i = 0; i < n; ++i) {
-        dp[i]   = 1;    // минимум — сам элемент
-        prev[i] = -1;   // нет предыдущего
+        dp[i]   = 1;
+        prev[i] = -1;
 
         for (int j = 0; j < i; ++j) {
             if (a[j] < a[i] && dp[j] + 1 > dp[i]) {
-                dp[i]   = dp[j] + 1;
+                dp[i] = dp[j] + 1;
                 prev[i] = j;
             }
         }
     }
 
-    // ---- Ищем конец лучшей подпоследовательности ----
     int bestEnd = 0;
     for (int i = 1; i < n; ++i) {
         if (dp[i] > dp[bestEnd]) {
@@ -46,9 +43,6 @@ int main() {
     cout << "Длина максимальной возрастающей подпоследовательности: "
          << dp[bestEnd] << endl;
 
-    // ---- Восстанавливаем подпоследовательность ----
-    // Идём от конца назад по prev, складываем индексы в массив,
-    // затем выводим в обратном порядке.
     int* seq = new int[dp[bestEnd]];
     int len = 0;
     for (int k = bestEnd; k != -1; k = prev[k]) {
@@ -62,7 +56,7 @@ int main() {
     }
     cout << endl;
 
-    // ---- Освобождаем память ----
+    
     delete[] a;
     delete[] dp;
     delete[] prev;
