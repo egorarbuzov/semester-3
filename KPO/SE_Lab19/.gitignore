@@ -1,0 +1,14 @@
+# Visual Studio build output
+bin/
+obj/
+.vs/
+*.user
+*.aps
+*.sdf
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.suo
+Debug/
+Release/
+x64/
