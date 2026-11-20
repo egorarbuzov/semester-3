@@ -5,19 +5,10 @@
       <UniqueIdentifier>{6BE94803-D816-4487-B177-3B43E863B402}</UniqueIdentifier>
       <Extensions>asm</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{890BCC8-F911-4d19-9C8B-94CC232BBE03}</UniqueIdentifier>
-      <Extensions>txt;md</Extensions>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="main.asm">
       <Filter>Source Files</Filter>
     </MASM>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="readme.txt">
-      <Filter>Resource Files</Filter>
-    </None>
   </ItemGroup>
 </Project>

@@ -1,0 +1,15 @@
+#pragma once
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <exception>
+#include <vector>
+#include <stack>
+#include <cstdarg>
+#include <cstring>
+#include <cstdio>
+#include <clocale>
+#include <cwchar>
+#include <locale>
+#include <windows.h>
+#include <tchar.h>

@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\Lex.obj",
+            "outputs": [
+                "Debug\\Lex.cpp.obj.dt.module.json",
+                "Debug\\Lex.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

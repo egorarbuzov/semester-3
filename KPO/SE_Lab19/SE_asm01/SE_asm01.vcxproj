@@ -56,7 +56,7 @@
     </MASM>
     <Link>
       <SubSystem>Console</SubSystem>
-      <EntryPointSymbol>_main</EntryPointSymbol>
+      <EntryPointSymbol>_start</EntryPointSymbol>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <AdditionalDependencies>kernel32.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -69,7 +69,7 @@
     </MASM>
     <Link>
       <SubSystem>Console</SubSystem>
-      <EntryPointSymbol>_main</EntryPointSymbol>
+      <EntryPointSymbol>_start</EntryPointSymbol>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <AdditionalDependencies>kernel32.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -78,9 +78,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <MASM Include="main.asm" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="readme.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

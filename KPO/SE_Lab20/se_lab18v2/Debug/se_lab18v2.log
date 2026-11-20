@@ -1,0 +1,560 @@
+﻿Сборка начата 02.11.2026 17:27:08.
+Окружение на момент начала сборки:
+MSBuildLoadMicrosoftTargetsReadOnly = true
+
+Уровень детализации журнала: Diagnostic.17:27:08.394     1>Проект "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" в узле 2 (целевые объекты Build).
+17:27:08.394     1>Целевой объект "_CheckForInvalidConfigurationAndPlatform: (идентификатор целевого объекта TargetId:2)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "SetTelemetryEnvironmentVariables" зависит от него):
+17:27:08.394     1>Задача "Message" (Идентификатор задачи TaskId:2)
+                   Выполнение задачи "Message" завершено. (Идентификатор задачи TaskId:2)
+                   Задача "Message" (Идентификатор задачи TaskId:3)
+                   Выполнение задачи "Message" завершено. (Идентификатор задачи TaskId:3)
+17:27:08.394     1>Сборка целевого объекта "_CheckForInvalidConfigurationAndPlatform" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:2)
+17:27:08.394     1>Целевой объект "SetTelemetryEnvironmentVariables: (идентификатор целевого объекта TargetId:3)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.Cpp.DesignTime.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "Build" зависит от него):
+                   Задача "SetEnv" (Идентификатор задачи TaskId:4)
+                   Выполнение задачи "SetEnv" завершено. (Идентификатор задачи TaskId:4)
+                   Задача "SetEnv" (Идентификатор задачи TaskId:5)
+                   Выполнение задачи "SetEnv" завершено. (Идентификатор задачи TaskId:5)
+                   Задача "SetEnv" (Идентификатор задачи TaskId:6)
+                   Выполнение задачи "SetEnv" завершено. (Идентификатор задачи TaskId:6)
+                   Задача "SetEnv" (Идентификатор задачи TaskId:7)
+                   Выполнение задачи "SetEnv" завершено. (Идентификатор задачи TaskId:7)
+                   Задача "SetEnv" (Идентификатор задачи TaskId:8)
+                   Выполнение задачи "SetEnv" завершено. (Идентификатор задачи TaskId:8)
+17:27:08.394     1>Сборка целевого объекта "SetTelemetryEnvironmentVariables" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:3)
+17:27:08.394     1>Целевой объект "_PrepareForBuild: (идентификатор целевого объекта TargetId:4)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "Build" зависит от него):
+17:27:08.394     1>Сборка целевого объекта "_PrepareForBuild" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:4)
+17:27:08.394     1>Целевой объект "_PrepareForReferenceResolution: (идентификатор целевого объекта TargetId:5)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+17:27:08.394     1>Сборка целевого объекта "_PrepareForReferenceResolution" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:5)
+17:27:08.394     1>Целевой объект "BeforeResolveReferences: (идентификатор целевого объекта TargetId:6)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+17:27:08.394     1>Сборка целевого объекта "BeforeResolveReferences" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:6)
+17:27:08.394     1>Целевой объект "IgnoreJavaScriptOutputAssembly: (идентификатор целевого объекта TargetId:7)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "AssignProjectConfiguration" зависит от него):
+17:27:08.394     1>Сборка целевого объекта "IgnoreJavaScriptOutputAssembly" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:7)
+17:27:08.394     1>Целевой объект "AssignProjectConfiguration: (идентификатор целевого объекта TargetId:8)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+                   Задача "AssignProjectConfiguration" (Идентификатор задачи TaskId:9)
+                   Выполнение задачи "AssignProjectConfiguration" завершено. (Идентификатор задачи TaskId:9)
+17:27:08.394     1>Сборка целевого объекта "AssignProjectConfiguration" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:8)
+17:27:08.394     1>Целевой объект "_SplitProjectReferencesByFileExistence: (идентификатор целевого объекта TargetId:9)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "PrepareProjectReferences" зависит от него):
+17:27:08.394     1>Сборка целевого объекта "_SplitProjectReferencesByFileExistence" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:9)
+17:27:08.394     1>Целевой объект "_AddOutputPathToGlobalPropertiesToRemove: (идентификатор целевого объекта TargetId:10)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_GetProjectReferenceTargetFrameworkProperties" зависит от него):
+17:27:08.394     1>Сборка целевого объекта "_AddOutputPathToGlobalPropertiesToRemove" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:10)
+17:27:08.394     1>Целевой объект "_GetProjectReferenceTargetFrameworkProperties: (идентификатор целевого объекта TargetId:11)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "PrepareProjectReferences" зависит от него):
+                   Задача "MSBuild" (Идентификатор задачи TaskId:10)
+                   Выполнение задачи "MSBuild" завершено. (Идентификатор задачи TaskId:10)
+                   Задача "SetRidAgnosticValueForProjects" (Идентификатор задачи TaskId:11)
+                   Выполнение задачи "SetRidAgnosticValueForProjects" завершено. (Идентификатор задачи TaskId:11)
+17:27:08.394     1>Сборка целевого объекта "_GetProjectReferenceTargetFrameworkProperties" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:11)
+17:27:08.394     1>Целевой объект "PrepareProjectReferences: (идентификатор целевого объекта TargetId:12)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ResolveProjectReferences" зависит от него):
+17:27:08.394     1>Сборка целевого объекта "PrepareProjectReferences" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:12)
+17:27:08.394     1>Целевой объект "ResolveProjectReferences: (идентификатор целевого объекта TargetId:13)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+17:27:08.394     1>Сборка целевого объекта "ResolveProjectReferences" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:13)
+17:27:08.394     1>Целевой объект "GetFrameworkPaths: (идентификатор целевого объекта TargetId:14)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+17:27:08.394     1>Сборка целевого объекта "GetFrameworkPaths" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:14)
+17:27:08.394     1>Целевой объект "GetReferenceAssemblyPaths: (идентификатор целевого объекта TargetId:15)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+17:27:08.394     1>Сборка целевого объекта "GetReferenceAssemblyPaths" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:15)
+17:27:08.394     1>Целевой объект "AddExternalIncludDirectoriesToPaths: (идентификатор целевого объекта TargetId:16)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.Cpp.Current.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "SetBuildDefaultEnvironmentVariables" зависит от него):
+17:27:08.410     1>Сборка целевого объекта "AddExternalIncludDirectoriesToPaths" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:16)
+17:27:08.410     1>Целевой объект "SetBuildDefaultEnvironmentVariables: (идентификатор целевого объекта TargetId:17)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.Cpp.Current.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
+                   Задача "SetEnv" (Идентификатор задачи TaskId:12)
+                   Выполнение задачи "SetEnv" завершено. (Идентификатор задачи TaskId:12)
+                   Задача "SetEnv" (Идентификатор задачи TaskId:13)
+                   Выполнение задачи "SetEnv" завершено. (Идентификатор задачи TaskId:13)
+                   Задача "SetEnv" (Идентификатор задачи TaskId:14)
+                   Выполнение задачи "SetEnv" завершено. (Идентификатор задачи TaskId:14)
+                   Задача "SetEnv" (Идентификатор задачи TaskId:15)
+                   Выполнение задачи "SetEnv" завершено. (Идентификатор задачи TaskId:15)
+                   Задача "SetEnv" (Идентификатор задачи TaskId:16)
+                   Выполнение задачи "SetEnv" завершено. (Идентификатор задачи TaskId:16)
+17:27:08.410     1>Сборка целевого объекта "SetBuildDefaultEnvironmentVariables" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:17)
+17:27:08.410     1>Целевой объект "GetResolvedWinMD: (идентификатор целевого объекта TargetId:18)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
+17:27:08.410     1>Сборка целевого объекта "GetResolvedWinMD" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:18)
+17:27:08.410     1>Целевой объект "_CheckWindowsSDKInstalled: (идентификатор целевого объекта TargetId:19)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.Cpp.WindowsSDK.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
+17:27:08.410     1>Сборка целевого объекта "_CheckWindowsSDKInstalled" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:19)
+17:27:08.410     1>Целевой объект "SetCABuildNativeEnvironmentVariables: (идентификатор целевого объекта TargetId:20)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VisualStudio\v18.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
+                   Задача "SetEnv" (Идентификатор задачи TaskId:17)
+                   Выполнение задачи "SetEnv" завершено. (Идентификатор задачи TaskId:17)
+17:27:08.410     1>Сборка целевого объекта "SetCABuildNativeEnvironmentVariables" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:20)
+17:27:08.410     1>Целевой объект "PrepareForBuild: (идентификатор целевого объекта TargetId:21)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+                   Задача "MakeDir" (Идентификатор задачи TaskId:18)
+                   Выполнение задачи "MakeDir" завершено. (Идентификатор задачи TaskId:18)
+                   Задача "CheckVCToolsetVersion" (Идентификатор задачи TaskId:19)
+                   Выполнение задачи "CheckVCToolsetVersion" завершено. (Идентификатор задачи TaskId:19)
+                   Задача "VCMessage" (Идентификатор задачи TaskId:20)
+                   Выполнение задачи "VCMessage" завершено. (Идентификатор задачи TaskId:20)
+                   Задача "MakeDir" (Идентификатор задачи TaskId:21)
+                   Выполнение задачи "MakeDir" завершено. (Идентификатор задачи TaskId:21)
+17:27:08.410     1>Сборка целевого объекта "PrepareForBuild" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:21)
+17:27:08.410     1>Целевой объект "ResolveSDKReferences: (идентификатор целевого объекта TargetId:22)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+17:27:08.410     1>Сборка целевого объекта "ResolveSDKReferences" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:22)
+17:27:08.410     1>Целевой объект "ExpandSDKReferences: (идентификатор целевого объекта TargetId:23)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+17:27:08.410     1>Сборка целевого объекта "ExpandSDKReferences" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:23)
+17:27:08.410     1>Целевой объект "ResolveAssemblyReferences: (идентификатор целевого объекта TargetId:24)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+17:27:08.410     1>Сборка целевого объекта "ResolveAssemblyReferences" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:24)
+17:27:08.410     1>Целевой объект "AfterResolveReferences: (идентификатор целевого объекта TargetId:25)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+17:27:08.410     1>Сборка целевого объекта "AfterResolveReferences" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:25)
+17:27:08.410     1>Целевой объект "ResolveReferences: (идентификатор целевого объекта TargetId:26)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "Build" зависит от него):
+17:27:08.410     1>Сборка целевого объекта "ResolveReferences" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:26)
+17:27:08.410     1>Целевой объект "InitializeBuildStatus: (идентификатор целевого объекта TargetId:27)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "Build" зависит от него):
+                   Задача "ReadLinesFromFile" (Идентификатор задачи TaskId:22)
+                   Выполнение задачи "ReadLinesFromFile" завершено. (Идентификатор задачи TaskId:22)
+                   Задача "WriteLinesToFile" (Идентификатор задачи TaskId:23)
+                   Выполнение задачи "WriteLinesToFile" завершено. (Идентификатор задачи TaskId:23)
+                   Задача "Touch" (Идентификатор задачи TaskId:24)
+                   Выполнение задачи "Touch" завершено. (Идентификатор задачи TaskId:24)
+17:27:08.426     1>Сборка целевого объекта "InitializeBuildStatus" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:27)
+17:27:08.426     1>Целевой объект "BuildGenerateSourcesTraverse: (идентификатор целевого объекта TargetId:28)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "BuildGenerateSources" зависит от него):
+17:27:08.426     1>Сборка целевого объекта "BuildGenerateSourcesTraverse" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:28)
+17:27:08.426     1>Целевой объект "BeforeBuildGenerateSources: (идентификатор целевого объекта TargetId:29)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+17:27:08.428     1>Сборка целевого объекта "BeforeBuildGenerateSources" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:29)
+17:27:08.428     1>Целевой объект "PreBuildEvent: (идентификатор целевого объекта TargetId:30)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+17:27:08.428     1>Сборка целевого объекта "PreBuildEvent" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:30)
+17:27:08.428     1>Целевой объект "_SelectedFiles: (идентификатор целевого объекта TargetId:31)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "SelectCustomBuild" зависит от него):
+17:27:08.428     1>Сборка целевого объекта "_SelectedFiles" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:31)
+17:27:08.428     1>Целевой объект "SelectCustomBuild: (идентификатор целевого объекта TargetId:32)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "CustomBuild" зависит от него):
+17:27:08.428     1>Сборка целевого объекта "SelectCustomBuild" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:32)
+17:27:08.428     1>Целевой объект "ComputeCustomBuildOutput: (идентификатор целевого объекта TargetId:33)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "CustomBuild" зависит от него):
+                   Задача "MakeDir" (Идентификатор задачи TaskId:25)
+                   Выполнение задачи "MakeDir" завершено. (Идентификатор задачи TaskId:25)
+17:27:08.428     1>Сборка целевого объекта "ComputeCustomBuildOutput" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:33)
+17:27:08.428     1>Целевой объект "CustomBuild: (идентификатор целевого объекта TargetId:34)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+                   Задача "GetOutOfDateItems" (Идентификатор задачи TaskId:26)
+                   Выполнение задачи "GetOutOfDateItems" завершено. (Идентификатор задачи TaskId:26)
+                   Задача "GetOutOfDateItems" (Идентификатор задачи TaskId:27)
+                   Выполнение задачи "GetOutOfDateItems" завершено. (Идентификатор задачи TaskId:27)
+17:27:08.430     1>Сборка целевого объекта "CustomBuild" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:34)
+17:27:08.430     1>Целевой объект "CopyFileToFolders: (идентификатор целевого объекта TargetId:35)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+                   Задача "GetOutOfDateItems" (Идентификатор задачи TaskId:28)
+                   Выполнение задачи "GetOutOfDateItems" завершено. (Идентификатор задачи TaskId:28)
+17:27:08.430     1>Сборка целевого объекта "CopyFileToFolders" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:35)
+17:27:08.430     1>Целевой объект "_Xsd: (идентификатор целевого объекта TargetId:36)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+17:27:08.430     1>Сборка целевого объекта "_Xsd" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:36)
+17:27:08.430     1>Целевой объект "MakeDirsForMidl: (идентификатор целевого объекта TargetId:37)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_Midl" зависит от него):
+                   Задача "Makedir" (Идентификатор задачи TaskId:29)
+                   Выполнение задачи "Makedir" завершено. (Идентификатор задачи TaskId:29)
+17:27:08.430     1>Сборка целевого объекта "MakeDirsForMidl" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:37)
+17:27:08.430     1>Целевой объект "ComputeMIDLGeneratedCompileInputs: (идентификатор целевого объекта TargetId:38)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_Midl" зависит от него):
+17:27:08.430     1>Сборка целевого объекта "ComputeMIDLGeneratedCompileInputs" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:38)
+17:27:08.430     1>Целевой объект "AfterMidl: (идентификатор целевого объекта TargetId:39)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_Midl" зависит от него):
+17:27:08.430     1>Сборка целевого объекта "AfterMidl" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:39)
+17:27:08.430     1>Целевой объект "_Midl: (идентификатор целевого объекта TargetId:40)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+17:27:08.430     1>Сборка целевого объекта "_Midl" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:40)
+17:27:08.430     1>Целевой объект "AfterBuildGenerateSources: (идентификатор целевого объекта TargetId:41)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+17:27:08.430     1>Сборка целевого объекта "AfterBuildGenerateSources" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:41)
+17:27:08.430     1>Целевой объект "AfterBuildGenerateSourcesEvent: (идентификатор целевого объекта TargetId:42)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+17:27:08.430     1>Сборка целевого объекта "AfterBuildGenerateSourcesEvent" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:42)
+17:27:08.430     1>Целевой объект "_BuildGenerateSourcesAction: (идентификатор целевого объекта TargetId:43)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "BuildGenerateSources" зависит от него):
+17:27:08.430     1>Сборка целевого объекта "_BuildGenerateSourcesAction" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:43)
+17:27:08.430     1>Целевой объект "BuildGenerateSources: (идентификатор целевого объекта TargetId:44)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "Build" зависит от него):
+17:27:08.430     1>Сборка целевого объекта "BuildGenerateSources" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:44)
+17:27:08.430     1>Целевой объект "BuildCompileTraverse: (идентификатор целевого объекта TargetId:45)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "BuildCompile" зависит от него):
+17:27:08.430     1>Сборка целевого объекта "BuildCompileTraverse" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:45)
+17:27:08.430     1>Целевой объект "BeforeClCompile: (идентификатор целевого объекта TargetId:46)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_ClCompile" зависит от него):
+17:27:08.430     1>Сборка целевого объекта "BeforeClCompile" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:46)
+17:27:08.430     1>Целевой объект "ComputeCLInputPDBName: (идентификатор целевого объекта TargetId:47)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_ClCompile" зависит от него):
+17:27:08.430     1>Сборка целевого объекта "ComputeCLInputPDBName" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:47)
+17:27:08.430     1>Целевой объект "FindReferenceAssembliesForReferences: (идентификатор целевого объекта TargetId:48)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ComputeReferenceCLInput" зависит от него):
+17:27:08.430     1>Сборка целевого объекта "FindReferenceAssembliesForReferences" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:48)
+17:27:08.430     1>Целевой объект "GetReferencedVCProjectsInfo: (идентификатор целевого объекта TargetId:49)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ComputeReferenceCLInput" зависит от него):
+17:27:08.432     1>Сборка целевого объекта "GetReferencedVCProjectsInfo" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:49)
+17:27:08.432     1>Целевой объект "ComputeReferenceCLInput: (идентификатор целевого объекта TargetId:50)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_ClCompile" зависит от него):
+17:27:08.432     1>Сборка целевого объекта "ComputeReferenceCLInput" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:50)
+17:27:08.432     1>Целевой объект "WarnCompileDuplicatedFilename: (идентификатор целевого объекта TargetId:51)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_ClCompile" зависит от него):
+17:27:08.432     1>Сборка целевого объекта "WarnCompileDuplicatedFilename" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:51)
+17:27:08.432     1>Целевой объект "SetCppLanguageStandardCapabilities: (идентификатор целевого объекта TargetId:52)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ComputeStdModulesCompileInputs" зависит от него):
+17:27:08.432     1>Сборка целевого объекта "SetCppLanguageStandardCapabilities" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:52)
+17:27:08.432     1>Целевой объект "ComputeStdModulesCompileInputs: (идентификатор целевого объекта TargetId:53)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_ClCompile" зависит от него):
+                   Задача "GetLibraryModuleSources" (Идентификатор задачи TaskId:30)
+                   Выполнение задачи "GetLibraryModuleSources" завершено. (Идентификатор задачи TaskId:30)
+17:27:08.434     1>Сборка целевого объекта "ComputeStdModulesCompileInputs" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:53)
+17:27:08.434     1>Целевой объект "FixupCLCompileOptions: (идентификатор целевого объекта TargetId:54)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_ClCompile" зависит от него):
+17:27:08.434     1>Сборка целевого объекта "FixupCLCompileOptions" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:54)
+17:27:08.434     1>Целевой объект "MakeDirsForCl: (идентификатор целевого объекта TargetId:55)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "SetModuleDependencies" зависит от него):
+                   Задача "MakeDir" (Идентификатор задачи TaskId:31)
+                   Выполнение задачи "MakeDir" завершено. (Идентификатор задачи TaskId:31)
+17:27:08.434     1>Сборка целевого объекта "MakeDirsForCl" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:55)
+17:27:08.434     1>Целевой объект "SetModuleDependencies: (идентификатор целевого объекта TargetId:56)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_ClCompile" зависит от него):
+                   Задача "MakeDir" (Идентификатор задачи TaskId:32)
+                   Выполнение задачи "MakeDir" завершено. (Идентификатор задачи TaskId:32)
+                   Задача "SetModuleDependencies" (Идентификатор задачи TaskId:33)
+                   Выполнение задачи "SetModuleDependencies" завершено. (Идентификатор задачи TaskId:33)
+17:27:08.444     1>Сборка целевого объекта "SetModuleDependencies" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:56)
+17:27:08.444     1>Целевой объект "SelectClCompile: (идентификатор целевого объекта TargetId:57)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ClCompile" зависит от него):
+17:27:08.444     1>Сборка целевого объекта "SelectClCompile" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:57)
+17:27:08.444     1>Целевой объект "ClCompile: (идентификатор целевого объекта TargetId:58)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_ClCompile" зависит от него):
+                   Задача "CL" (Идентификатор задачи TaskId:34)
+                     C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\bin\HostArm64\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Fo"Debug\\" /Fd"Debug\vc145.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt MFST.cpp (Идентификатор задачи TaskId:34)
+                     MFST.cpp (Идентификатор задачи TaskId:34)
+                   Выполнение задачи "CL" завершено. (Идентификатор задачи TaskId:34)
+17:27:09.991     1>Сборка целевого объекта "ClCompile" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:58)
+17:27:09.993     1>Целевой объект "AfterClCompile: (идентификатор целевого объекта TargetId:59)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_ClCompile" зависит от него):
+17:27:09.993     1>Сборка целевого объекта "AfterClCompile" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:59)
+17:27:09.993     1>Целевой объект "_ClCompile: (идентификатор целевого объекта TargetId:60)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildCompileAction" зависит от него):
+17:27:09.993     1>Сборка целевого объекта "_ClCompile" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:60)
+17:27:09.993     1>Целевой объект "BeforeResourceCompile: (идентификатор целевого объекта TargetId:61)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_ResourceCompile" зависит от него):
+17:27:09.993     1>Сборка целевого объекта "BeforeResourceCompile" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:61)
+17:27:09.993     1>Целевой объект "MakeDirsForResourceCompile: (идентификатор целевого объекта TargetId:62)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_ResourceCompile" зависит от него):
+                   Задача "MakeDir" (Идентификатор задачи TaskId:35)
+                   Выполнение задачи "MakeDir" завершено. (Идентификатор задачи TaskId:35)
+17:27:09.993     1>Сборка целевого объекта "MakeDirsForResourceCompile" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:62)
+17:27:09.993     1>Целевой объект "AfterResourceCompile: (идентификатор целевого объекта TargetId:63)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_ResourceCompile" зависит от него):
+17:27:09.993     1>Сборка целевого объекта "AfterResourceCompile" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:63)
+17:27:09.993     1>Целевой объект "_ResourceCompile: (идентификатор целевого объекта TargetId:64)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildCompileAction" зависит от него):
+17:27:09.993     1>Сборка целевого объекта "_ResourceCompile" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:64)
+17:27:09.993     1>Целевой объект "AfterBuildCompileEvent: (идентификатор целевого объекта TargetId:65)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildCompileAction" зависит от него):
+17:27:09.993     1>Сборка целевого объекта "AfterBuildCompileEvent" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:65)
+17:27:09.993     1>Целевой объект "_BuildCompileAction: (идентификатор целевого объекта TargetId:66)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "BuildCompile" зависит от него):
+17:27:09.993     1>Сборка целевого объекта "_BuildCompileAction" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:66)
+17:27:09.993     1>Целевой объект "BuildCompile: (идентификатор целевого объекта TargetId:67)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "Build" зависит от него):
+17:27:09.993     1>Сборка целевого объекта "BuildCompile" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:67)
+17:27:09.995     1>Целевой объект "BuildLinkTraverse: (идентификатор целевого объекта TargetId:68)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "BuildLink" зависит от него):
+17:27:09.995     1>Сборка целевого объекта "BuildLinkTraverse" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:68)
+17:27:09.995     1>Целевой объект "ComputeLegacyManifestEmbedding: (идентификатор целевого объекта TargetId:69)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+17:27:09.995     1>Сборка целевого объекта "ComputeLegacyManifestEmbedding" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:69)
+17:27:09.995     1>Целевой объект "BeforeLink: (идентификатор целевого объекта TargetId:70)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_Link" зависит от него):
+17:27:09.995     1>Сборка целевого объекта "BeforeLink" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:70)
+17:27:09.995     1>Целевой объект "ComputeRCOutputs: (идентификатор целевого объекта TargetId:71)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ComputeRCGeneratedLinkInputs" зависит от него):
+17:27:09.995     1>Сборка целевого объекта "ComputeRCOutputs" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:71)
+17:27:09.995     1>Целевой объект "ComputeRCGeneratedLinkInputs: (идентификатор целевого объекта TargetId:72)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_Link" зависит от него):
+17:27:09.995     1>Сборка целевого объекта "ComputeRCGeneratedLinkInputs" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:72)
+17:27:09.995     1>Целевой объект "ComputeManifestGeneratedLinkerInputs: (идентификатор целевого объекта TargetId:73)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_Link" зависит от него):
+17:27:09.995     1>Сборка целевого объекта "ComputeManifestGeneratedLinkerInputs" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:73)
+17:27:09.995     1>Целевой объект "ComputeCLOutputs: (идентификатор целевого объекта TargetId:74)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ComputeCLGeneratedLinkInputs" зависит от него):
+17:27:09.995     1>Сборка целевого объекта "ComputeCLOutputs" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:74)
+17:27:09.995     1>Целевой объект "ComputeCLGeneratedLinkInputs: (идентификатор целевого объекта TargetId:75)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_Link" зависит от него):
+17:27:09.997     1>Сборка целевого объекта "ComputeCLGeneratedLinkInputs" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:75)
+17:27:09.997     1>Целевой объект "ComputeLinkInputsFromProject: (идентификатор целевого объекта TargetId:76)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_Link" зависит от него):
+17:27:09.997     1>Сборка целевого объекта "ComputeLinkInputsFromProject" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:76)
+17:27:09.997     1>Целевой объект "ComputeManifestInputsTargets: (идентификатор целевого объекта TargetId:77)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_Link" зависит от него):
+17:27:09.997     1>Сборка целевого объекта "ComputeManifestInputsTargets" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:77)
+17:27:09.997     1>Целевой объект "AssignTargetPaths: (идентификатор целевого объекта TargetId:78)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "PrepareResourceNames" зависит от него):
+                   Задача "AssignTargetPath" (Идентификатор задачи TaskId:36)
+                   Выполнение задачи "AssignTargetPath" завершено. (Идентификатор задачи TaskId:36)
+                   Задача "AssignTargetPath" (Идентификатор задачи TaskId:37)
+                   Выполнение задачи "AssignTargetPath" завершено. (Идентификатор задачи TaskId:37)
+                   Задача "AssignTargetPath" (Идентификатор задачи TaskId:38)
+                   Выполнение задачи "AssignTargetPath" завершено. (Идентификатор задачи TaskId:38)
+                   Задача "AssignTargetPath" (Идентификатор задачи TaskId:39)
+                   Выполнение задачи "AssignTargetPath" завершено. (Идентификатор задачи TaskId:39)
+17:27:09.997     1>Сборка целевого объекта "AssignTargetPaths" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:78)
+17:27:09.997     1>Целевой объект "SplitResourcesByCulture: (идентификатор целевого объекта TargetId:79)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "PrepareResourceNames" зависит от него):
+                   Задача "AssignCulture" (Идентификатор задачи TaskId:40)
+                   Выполнение задачи "AssignCulture" завершено. (Идентификатор задачи TaskId:40)
+17:27:09.997     1>Сборка целевого объекта "SplitResourcesByCulture" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:79)
+17:27:09.997     1>Целевой объект "CreateCustomManifestResourceNames: (идентификатор целевого объекта TargetId:80)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "PrepareResourceNames" зависит от него):
+17:27:09.997     1>Сборка целевого объекта "CreateCustomManifestResourceNames" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:80)
+17:27:09.997     1>Целевой объект "PrepareResourceNames: (идентификатор целевого объекта TargetId:81)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_Link" зависит от него):
+17:27:09.997     1>Сборка целевого объекта "PrepareResourceNames" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:81)
+17:27:09.997     1>Целевой объект "MakeDirsForLink: (идентификатор целевого объекта TargetId:82)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_Link" зависит от него):
+                   Задача "MakeDir" (Идентификатор задачи TaskId:41)
+                   Выполнение задачи "MakeDir" завершено. (Идентификатор задачи TaskId:41)
+17:27:09.997     1>Сборка целевого объекта "MakeDirsForLink" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:82)
+17:27:09.997     1>Целевой объект "DoLinkOutputFilesMatch: (идентификатор целевого объекта TargetId:83)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_Link" зависит от него):
+17:27:09.997     1>Сборка целевого объекта "DoLinkOutputFilesMatch" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:83)
+17:27:09.997     1>Целевой объект "PreLinkEvent: (идентификатор целевого объекта TargetId:84)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_Link" зависит от него):
+17:27:09.997     1>Сборка целевого объекта "PreLinkEvent" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:84)
+17:27:09.997     1>Целевой объект "ComputeLinkSwitches: (идентификатор целевого объекта TargetId:85)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "Link" зависит от него):
+17:27:09.997     1>Сборка целевого объекта "ComputeLinkSwitches" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:85)
+17:27:09.997     1>Целевой объект "Link: (идентификатор целевого объекта TargetId:86)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_Link" зависит от него):
+                   Задача "Link" (Идентификатор задачи TaskId:42)
+                     C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\bin\HostArm64\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\holmes\source\repos\se_lab18v2\Debug\se_lab18v2.exe" /INCREMENTAL /ILK:"Debug\se_lab18v2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\Include\Manifest\segmentheap.manifest" /DEBUG /PDB:"C:\Users\holmes\source\repos\se_lab18v2\Debug\se_lab18v2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\holmes\source\repos\se_lab18v2\Debug\se_lab18v2.lib" /MACHINE:X86 Debug\Error1251.obj
+                     Debug\FST.obj
+                     Debug\GRB.obj
+                     Debug\In.obj
+                     Debug\IT.obj
+                     Debug\Lex.obj
+                     Debug\Log.obj
+                     Debug\LT.obj
+                     Debug\main.obj
+                     Debug\MFST.obj
+                     Debug\Parm.obj
+                     Debug\stdafx.obj (Идентификатор задачи TaskId:42)
+                   Выполнение задачи "Link" завершено. (Идентификатор задачи TaskId:42)
+                   Задача "Message" (Идентификатор задачи TaskId:43)
+                     se_lab18v2.vcxproj -> C:\Users\holmes\source\repos\se_lab18v2\Debug\se_lab18v2.exe (Идентификатор задачи TaskId:43)
+                   Выполнение задачи "Message" завершено. (Идентификатор задачи TaskId:43)
+17:27:10.383     1>Сборка целевого объекта "Link" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:86)
+17:27:10.383     1>Целевой объект "AfterLink: (идентификатор целевого объекта TargetId:87)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_Link" зависит от него):
+17:27:10.383     1>Сборка целевого объекта "AfterLink" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:87)
+17:27:10.383     1>Целевой объект "_Link: (идентификатор целевого объекта TargetId:88)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+17:27:10.383     1>Сборка целевого объекта "_Link" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:88)
+17:27:10.383     1>Целевой объект "_ALink: (идентификатор целевого объекта TargetId:89)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+17:27:10.383     1>Сборка целевого объекта "_ALink" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:89)
+17:27:10.383     1>Целевой объект "_Manifest: (идентификатор целевого объекта TargetId:90)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+17:27:10.383     1>Сборка целевого объекта "_Manifest" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:90)
+17:27:10.383     1>Целевой объект "RegisterOutput: (идентификатор целевого объекта TargetId:91)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+17:27:10.383     1>Сборка целевого объекта "RegisterOutput" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:91)
+17:27:10.383     1>Целевой объект "ResolvedXDCMake: (идентификатор целевого объекта TargetId:92)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_XdcMake" зависит от него):
+17:27:10.383     1>Сборка целевого объекта "ResolvedXDCMake" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:92)
+17:27:10.383     1>Целевой объект "ComputeCLCompileGeneratedXDCFiles: (идентификатор целевого объекта TargetId:93)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_XdcMake" зависит от него):
+17:27:10.383     1>Сборка целевого объекта "ComputeCLCompileGeneratedXDCFiles" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:93)
+17:27:10.383     1>Целевой объект "MakeDirsForXdcMake: (идентификатор целевого объекта TargetId:94)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_XdcMake" зависит от него):
+                   Задача "MakeDir" (Идентификатор задачи TaskId:44)
+                   Выполнение задачи "MakeDir" завершено. (Идентификатор задачи TaskId:44)
+17:27:10.383     1>Сборка целевого объекта "MakeDirsForXdcMake" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:94)
+17:27:10.383     1>Целевой объект "_XdcMake: (идентификатор целевого объекта TargetId:95)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+17:27:10.383     1>Сборка целевого объекта "_XdcMake" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:95)
+17:27:10.383     1>Целевой объект "ComputeCLCompileGeneratedSbrFiles: (идентификатор целевого объекта TargetId:96)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BscMake" зависит от него):
+17:27:10.383     1>Сборка целевого объекта "ComputeCLCompileGeneratedSbrFiles" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:96)
+17:27:10.383     1>Целевой объект "MakeDirsForBscMake: (идентификатор целевого объекта TargetId:97)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BscMake" зависит от него):
+                   Задача "MakeDir" (Идентификатор задачи TaskId:45)
+                   Выполнение задачи "MakeDir" завершено. (Идентификатор задачи TaskId:45)
+17:27:10.383     1>Сборка целевого объекта "MakeDirsForBscMake" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:97)
+17:27:10.383     1>Целевой объект "_BscMake: (идентификатор целевого объекта TargetId:98)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+17:27:10.383     1>Сборка целевого объекта "_BscMake" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:98)
+17:27:10.383     1>Целевой объект "BuiltProjectOutputGroup: (идентификатор целевого объекта TargetId:99)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "CreateRecipeFile" зависит от него):
+17:27:10.383     1>Сборка целевого объекта "BuiltProjectOutputGroup" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:99)
+17:27:10.383     1>Целевой объект "SatelliteDllsProjectOutputGroup: (идентификатор целевого объекта TargetId:100)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "CreateRecipeFile" зависит от него):
+17:27:10.383     1>Сборка целевого объекта "SatelliteDllsProjectOutputGroup" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:100)
+17:27:10.383     1>Целевой объект "MakeDirsForFxc: (идентификатор целевого объекта TargetId:101)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "ContentFilesProjectOutputGroup" зависит от него):
+                   Задача "MakeDir" (Идентификатор задачи TaskId:46)
+                   Выполнение задачи "MakeDir" завершено. (Идентификатор задачи TaskId:46)
+17:27:10.383     1>Сборка целевого объекта "MakeDirsForFxc" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:101)
+17:27:10.383     1>Целевой объект "ContentFilesProjectOutputGroup: (идентификатор целевого объекта TargetId:102)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "CreateRecipeFile" зависит от него):
+17:27:10.394     1>Сборка целевого объекта "ContentFilesProjectOutputGroup" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:102)
+17:27:10.394     1>Целевой объект "CreateRecipeFile: (идентификатор целевого объекта TargetId:103)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+                   Задача "GenerateDesktopDeployRecipe" (Идентификатор задачи TaskId:47)
+                   Выполнение задачи "GenerateDesktopDeployRecipe" завершено. (Идентификатор задачи TaskId:47)
+17:27:10.396     1>Сборка целевого объекта "CreateRecipeFile" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:103)
+17:27:10.396     1>Целевой объект "_GenerateSatelliteAssemblyInputs: (идентификатор целевого объекта TargetId:104)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "CreateSatelliteAssemblies" зависит от него):
+17:27:10.396     1>Сборка целевого объекта "_GenerateSatelliteAssemblyInputs" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:104)
+17:27:10.396     1>Целевой объект "CreateSatelliteAssemblies: (идентификатор целевого объекта TargetId:105)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+17:27:10.396     1>Сборка целевого объекта "CreateSatelliteAssemblies" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:105)
+17:27:10.396     1>Целевой объект "_Appverifier: (идентификатор целевого объекта TargetId:106)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+17:27:10.396     1>Сборка целевого объекта "_Appverifier" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:106)
+17:27:10.396     1>Целевой объект "_Deploy: (идентификатор целевого объекта TargetId:107)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+17:27:10.396     1>Сборка целевого объекта "_Deploy" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:107)
+17:27:10.396     1>Целевой объект "_PopulateCommonStateForGetCopyToOutputDirectoryItems: (идентификатор целевого объекта TargetId:108)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "GetCopyToOutputDirectoryItems" зависит от него):
+17:27:10.396     1>Сборка целевого объекта "_PopulateCommonStateForGetCopyToOutputDirectoryItems" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:108)
+17:27:10.396     1>Целевой объект "GetCopyToOutputDirectoryXamlAppDefs: (идентификатор целевого объекта TargetId:109)" в файле "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "GetCopyToOutputDirectoryItems" зависит от него):
+                   Задача "AssignTargetPath" (Идентификатор задачи TaskId:48)
+                   Выполнение задачи "AssignTargetPath" завершено. (Идентификатор задачи TaskId:48)
+17:27:10.396     1>Сборка целевого объекта "GetCopyToOutputDirectoryXamlAppDefs" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:109)
+17:27:10.396     1>Целевой объект "GetCopyToOutputDirectoryItems: (идентификатор целевого объекта TargetId:110)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_CopySourceItemsToOutputDirectory" зависит от него):
+                   Задача "CallTarget" (Идентификатор задачи TaskId:49)
+17:27:10.399     1>Целевой объект "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences: (идентификатор целевого объекта TargetId:111)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "GetCopyToOutputDirectoryItems" зависит от него):
+                   Задача "AssignTargetPath" (Идентификатор задачи TaskId:50)
+                   Выполнение задачи "AssignTargetPath" завершено. (Идентификатор задачи TaskId:50)
+17:27:10.399     1>Сборка целевого объекта "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:111)
+                   Выполнение задачи "CallTarget" завершено. (Идентификатор задачи TaskId:49)
+                   Задача "CallTarget" (Идентификатор задачи TaskId:51)
+17:27:10.399     1>Целевой объект "_GetCopyToOutputDirectoryItemsFromThisProject: (идентификатор целевого объекта TargetId:112)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "GetCopyToOutputDirectoryItems" зависит от него):
+                   Задача "AssignTargetPath" (Идентификатор задачи TaskId:52)
+                   Выполнение задачи "AssignTargetPath" завершено. (Идентификатор задачи TaskId:52)
+17:27:10.399     1>Сборка целевого объекта "_GetCopyToOutputDirectoryItemsFromThisProject" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:112)
+                   Выполнение задачи "CallTarget" завершено. (Идентификатор задачи TaskId:51)
+17:27:10.399     1>Сборка целевого объекта "GetCopyToOutputDirectoryItems" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:110)
+17:27:10.399     1>Целевой объект "_CopySourceItemsToOutputDirectory: (идентификатор целевого объекта TargetId:113)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "CopyFilesToOutputDirectory" зависит от него):
+17:27:10.399     1>Сборка целевого объекта "_CopySourceItemsToOutputDirectory" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:113)
+17:27:10.399     1>Целевой объект "_CheckForCompileOutputs: (идентификатор целевого объекта TargetId:114)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "CopyFilesToOutputDirectory" зависит от него):
+17:27:10.401     1>Сборка целевого объекта "_CheckForCompileOutputs" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:114)
+17:27:10.401     1>Целевой объект "CopyFilesToOutputDirectory: (идентификатор целевого объекта TargetId:115)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "PrepareForRun" зависит от него):
+17:27:10.401     1>Сборка целевого объекта "CopyFilesToOutputDirectory" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:115)
+17:27:10.401     1>Целевой объект "PrepareForRun: (идентификатор целевого объекта TargetId:116)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+17:27:10.401     1>Сборка целевого объекта "PrepareForRun" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:116)
+17:27:10.401     1>Целевой объект "PostBuildEvent: (идентификатор целевого объекта TargetId:117)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+17:27:10.401     1>Сборка целевого объекта "PostBuildEvent" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:117)
+17:27:10.401     1>Целевой объект "_BuildLinkAction: (идентификатор целевого объекта TargetId:118)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "BuildLink" зависит от него):
+17:27:10.401     1>Сборка целевого объекта "_BuildLinkAction" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:118)
+17:27:10.401     1>Целевой объект "BuildLink: (идентификатор целевого объекта TargetId:119)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "Build" зависит от него):
+17:27:10.401     1>Сборка целевого объекта "BuildLink" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:119)
+17:27:10.401     1>Целевой объект "AfterBuild: (идентификатор целевого объекта TargetId:120)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "Build" зависит от него):
+17:27:10.401     1>Сборка целевого объекта "AfterBuild" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:120)
+17:27:10.401     1>Целевой объект "_CleanGetCurrentAndPriorFileWrites: (идентификатор целевого объекта TargetId:121)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "IncrementalClean" зависит от него):
+                   Задача "ReadLinesFromFile" (Идентификатор задачи TaskId:53)
+                   Выполнение задачи "ReadLinesFromFile" завершено. (Идентификатор задачи TaskId:53)
+                   Задача "ConvertToAbsolutePath" (Идентификатор задачи TaskId:54)
+                   Выполнение задачи "ConvertToAbsolutePath" завершено. (Идентификатор задачи TaskId:54)
+                   Задача "FindUnderPath" (Идентификатор задачи TaskId:55)
+                   Выполнение задачи "FindUnderPath" завершено. (Идентификатор задачи TaskId:55)
+                   Задача "FindUnderPath" (Идентификатор задачи TaskId:56)
+                   Выполнение задачи "FindUnderPath" завершено. (Идентификатор задачи TaskId:56)
+                   Задача "FindUnderPath" (Идентификатор задачи TaskId:57)
+                   Выполнение задачи "FindUnderPath" завершено. (Идентификатор задачи TaskId:57)
+                   Задача "RemoveDuplicates" (Идентификатор задачи TaskId:58)
+                   Выполнение задачи "RemoveDuplicates" завершено. (Идентификатор задачи TaskId:58)
+17:27:10.403     1>Сборка целевого объекта "_CleanGetCurrentAndPriorFileWrites" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:121)
+17:27:10.403     1>Целевой объект "IncrementalClean: (идентификатор целевого объекта TargetId:122)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\arm64\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "Build" зависит от него):
+                   Задача "FindUnderPath" (Идентификатор задачи TaskId:59)
+                   Выполнение задачи "FindUnderPath" завершено. (Идентификатор задачи TaskId:59)
+                   Задача "FindUnderPath" (Идентификатор задачи TaskId:60)
+                   Выполнение задачи "FindUnderPath" завершено. (Идентификатор задачи TaskId:60)
+                   Задача "Delete" (Идентификатор задачи TaskId:61)
+                   Выполнение задачи "Delete" завершено. (Идентификатор задачи TaskId:61)
+                   Задача "RemoveDuplicates" (Идентификатор задачи TaskId:62)
+                   Выполнение задачи "RemoveDuplicates" завершено. (Идентификатор задачи TaskId:62)
+17:27:10.403     1>Сборка целевого объекта "IncrementalClean" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:122)
+17:27:10.403     1>Целевой объект "TlogCleanup: (идентификатор целевого объекта TargetId:123)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "Build" зависит от него):
+                   Задача "CleanupStaleTlogItems" (Идентификатор задачи TaskId:63)
+                   Выполнение задачи "CleanupStaleTlogItems" завершено. (Идентификатор задачи TaskId:63)
+17:27:10.405     1>Сборка целевого объекта "TlogCleanup" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:123)
+17:27:10.405     1>Целевой объект "FinalizeBuildStatus: (идентификатор целевого объекта TargetId:124)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (целевой объект "Build" зависит от него):
+                   Задача "Delete" (Идентификатор задачи TaskId:64)
+                   Выполнение задачи "Delete" завершено. (Идентификатор задачи TaskId:64)
+                   Задача "Touch" (Идентификатор задачи TaskId:65)
+                   Выполнение задачи "Touch" завершено. (Идентификатор задачи TaskId:65)
+17:27:10.407     1>Сборка целевого объекта "FinalizeBuildStatus" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:124)
+17:27:10.407     1>Целевой объект "Build: (идентификатор целевого объекта TargetId:125)" в файле "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" из проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" (точка входа):
+17:27:10.407     1>Сборка целевого объекта "Build" в проекте "se_lab18v2.vcxproj" завершена.: (идентификатор целевого объекта TargetId:125)
+17:27:10.407     1>Сборка проекта "C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj" завершена (целевые объекты Build).
+
+Итоги по проекту:
+     2012 мс вызовов   1 C:\Users\holmes\source\repos\se_lab18v2\se_lab18v2\se_lab18v2.vcxproj
+               2012 мс вызовов   1 Build                                   
+
+Итоги по целям:
+        0 мс вызовов   1 _CheckForInvalidConfigurationAndPlatform
+        0 мс вызовов   1 _Link                                   
+        0 мс вызовов   1 AfterLink                               
+        0 мс вызовов   1 ComputeLinkSwitches                     
+        0 мс вызовов   1 PreLinkEvent                            
+        0 мс вызовов   1 DoLinkOutputFilesMatch                  
+        0 мс вызовов   1 MakeDirsForLink                         
+        0 мс вызовов   1 PrepareResourceNames                    
+        0 мс вызовов   1 CreateCustomManifestResourceNames       
+        0 мс вызовов   1 SplitResourcesByCulture                 
+        0 мс вызовов   1 AssignTargetPaths                       
+        0 мс вызовов   1 ComputeManifestInputsTargets            
+        0 мс вызовов   1 ComputeLinkInputsFromProject            
+        0 мс вызовов   1 ComputeCLOutputs                        
+        0 мс вызовов   1 ComputeManifestGeneratedLinkerInputs    
+        0 мс вызовов   1 ComputeRCGeneratedLinkInputs            
+        0 мс вызовов   1 ComputeRCOutputs                        
+        0 мс вызовов   1 BeforeLink                              
+        0 мс вызовов   1 ComputeLegacyManifestEmbedding          
+        0 мс вызовов   1 BuildLinkTraverse                       
+        0 мс вызовов   1 BuildCompile                            
+        0 мс вызовов   1 _BuildCompileAction                     
+        0 мс вызовов   1 AfterBuildCompileEvent                  
+        0 мс вызовов   1 _ResourceCompile                        
+        0 мс вызовов   1 MakeDirsForResourceCompile              
+        0 мс вызовов   1 BeforeResourceCompile                   
+        0 мс вызовов   1 _ALink                                  
+        0 мс вызовов   1 _ClCompile                              
+        0 мс вызовов   1 _Manifest                               
+        0 мс вызовов   1 ResolvedXDCMake                         
+        0 мс вызовов   1 IncrementalClean                        
+        0 мс вызовов   1 AfterBuild                              
+        0 мс вызовов   1 BuildLink                               
+        0 мс вызовов   1 _BuildLinkAction                        
+        0 мс вызовов   1 PostBuildEvent                          
+        0 мс вызовов   1 PrepareForRun                           
+        0 мс вызовов   1 CopyFilesToOutputDirectory              
+        0 мс вызовов   1 _CopySourceItemsToOutputDirectory       
+        0 мс вызовов   1 _GetCopyToOutputDirectoryItemsFromThisProject
+        0 мс вызовов   1 _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences
+        0 мс вызовов   1 GetCopyToOutputDirectoryXamlAppDefs     
+        0 мс вызовов   1 _PopulateCommonStateForGetCopyToOutputDirectoryItems
+        0 мс вызовов   1 _Deploy                                 
+        0 мс вызовов   1 _Appverifier                            
+        0 мс вызовов   1 CreateSatelliteAssemblies               
+        0 мс вызовов   1 _GenerateSatelliteAssemblyInputs        
+        0 мс вызовов   1 MakeDirsForFxc                          
+        0 мс вызовов   1 SatelliteDllsProjectOutputGroup         
+        0 мс вызовов   1 BuiltProjectOutputGroup                 
+        0 мс вызовов   1 _BscMake                                
+        0 мс вызовов   1 MakeDirsForBscMake                      
+        0 мс вызовов   1 ComputeCLCompileGeneratedSbrFiles       
+        0 мс вызовов   1 _XdcMake                                
+        0 мс вызовов   1 MakeDirsForXdcMake                      
+        0 мс вызовов   1 ComputeCLCompileGeneratedXDCFiles       
+        0 мс вызовов   1 RegisterOutput                          
+        0 мс вызовов   1 AfterClCompile                          
+        0 мс вызовов   1 AfterResourceCompile                    
+        0 мс вызовов   1 SelectClCompile                         
+        0 мс вызовов   1 PreBuildEvent                           
+        0 мс вызовов   1 ResolveReferences                       
+        0 мс вызовов   1 AfterResolveReferences                  
+        0 мс вызовов   1 ResolveAssemblyReferences               
+        0 мс вызовов   1 ExpandSDKReferences                     
+        0 мс вызовов   1 ResolveSDKReferences                    
+        0 мс вызовов   1 PrepareForBuild                         
+        0 мс вызовов   1 SetCABuildNativeEnvironmentVariables    
+        0 мс вызовов   1 _CheckWindowsSDKInstalled               
+        0 мс вызовов   1 GetResolvedWinMD                        
+        0 мс вызовов   1 SetBuildDefaultEnvironmentVariables     
+        0 мс вызовов   1 _SelectedFiles                          
+        0 мс вызовов   1 GetReferenceAssemblyPaths               
+        0 мс вызовов   1 ResolveProjectReferences                
+        0 мс вызовов   1 PrepareProjectReferences                
+        0 мс вызовов   1 _GetProjectReferenceTargetFrameworkProperties
+        0 мс вызовов   1 _AddOutputPathToGlobalPropertiesToRemove
+        0 мс вызовов   1 _SplitProjectReferencesByFileExistence  
+        0 мс вызовов   1 AssignProjectConfiguration              
+        0 мс вызовов   1 IgnoreJavaScriptOutputAssembly          
+        0 мс вызовов   1 BeforeResolveReferences                 
+        0 мс вызовов   1 _PrepareForReferenceResolution          
+        0 мс вызовов   1 _PrepareForBuild                        
+        0 мс вызовов   1 SetTelemetryEnvironmentVariables        
+        0 мс вызовов   1 GetFrameworkPaths                       
+        0 мс вызовов   1 SelectCustomBuild                       
+        0 мс вызовов   1 BuildGenerateSourcesTraverse            
+        0 мс вызовов   1 Build                                   
+        0 мс вызовов   1 MakeDirsForCl                           
+        0 мс вызовов   1 FixupCLCompileOptions                   
+        0 мс вызовов   1 SetCppLanguageStandardCapabilities      
+        0 мс вызовов   1 WarnCompileDuplicatedFilename           
+        0 мс вызовов   1 ComputeReferenceCLInput                 
+        0 мс вызовов   1 FindReferenceAssembliesForReferences    
+        0 мс вызовов   1 ComputeCLInputPDBName                   
+        0 мс вызовов   1 BeforeClCompile                         
+        0 мс вызовов   1 BuildCompileTraverse                    
+        0 мс вызовов   1 ComputeCustomBuildOutput                
+        0 мс вызовов   1 _BuildGenerateSourcesAction             
+        0 мс вызовов   1 BuildGenerateSources                    
+        0 мс вызовов   1 AfterBuildGenerateSources               
+        0 мс вызовов   1 CopyFileToFolders                       
+        0 мс вызовов   1 AfterBuildGenerateSourcesEvent          
+        0 мс вызовов   1 MakeDirsForMidl                         
+        0 мс вызовов   1 ComputeMIDLGeneratedCompileInputs       
+        0 мс вызовов   1 AfterMidl                               
+        0 мс вызовов   1 _Xsd                                    
+        0 мс вызовов   1 _Midl                                   
+        2 мс вызовов   1 ComputeCLGeneratedLinkInputs            
+        2 мс вызовов   1 ComputeStdModulesCompileInputs          
+        2 мс вызовов   1 TlogCleanup                             
+        2 мс вызовов   1 CustomBuild                             
+        2 мс вызовов   1 _CheckForCompileOutputs                 
+        2 мс вызовов   1 GetCopyToOutputDirectoryItems           
+        2 мс вызовов   1 BeforeBuildGenerateSources              
+        2 мс вызовов   1 FinalizeBuildStatus                     
+        2 мс вызовов   1 _CleanGetCurrentAndPriorFileWrites      
+        2 мс вызовов   1 CreateRecipeFile                        
+        2 мс вызовов   1 GetReferencedVCProjectsInfo             
+       10 мс вызовов   1 SetModuleDependencies                   
+       11 мс вызовов   1 ContentFilesProjectOutputGroup          
+       16 мс вызовов   1 InitializeBuildStatus                   
+       16 мс вызовов   1 AddExternalIncludDirectoriesToPaths     
+      386 мс вызовов   1 Link                                    
+     1547 мс вызовов   1 ClCompile                               
+
+Итоги по задачам:
+        0 мс вызовов   3 Message                                 
+        0 мс вызовов   2 RemoveDuplicates                        
+        0 мс вызовов   5 FindUnderPath                           
+        0 мс вызовов   1 ConvertToAbsolutePath                   
+        0 мс вызовов   1 AssignCulture                           
+        0 мс вызовов   7 AssignTargetPath                        
+        0 мс вызовов   2 Delete                                  
+        0 мс вызовов   2 ReadLinesFromFile                       
+        0 мс вызовов   1 GetLibraryModuleSources                 
+        0 мс вызовов   1 CheckVCToolsetVersion                   
+        0 мс вызовов  11 MakeDir                                 
+        0 мс вызовов   1 SetRidAgnosticValueForProjects          
+        0 мс вызовов   1 MSBuild                                 
+        0 мс вызовов   1 AssignProjectConfiguration              
+        0 мс вызовов  11 SetEnv                                  
+        0 мс вызовов   1 VCMessage                               
+        2 мс вызовов   3 GetOutOfDateItems                       
+        2 мс вызовов   1 CleanupStaleTlogItems                   
+        2 мс вызовов   2 CallTarget                              
+        2 мс вызовов   2 Touch                                   
+        2 мс вызовов   1 GenerateDesktopDeployRecipe             
+        2 мс вызовов   1 SetModuleDependencies                   
+       16 мс вызовов   1 WriteLinesToFile                        
+      379 мс вызовов   1 Link                                    
+     1547 мс вызовов   1 CL                                      
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:02.01

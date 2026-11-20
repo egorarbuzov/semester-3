@@ -6,7 +6,6 @@ PUBLIC getmax
 
 .code
 
-; int getmin(const int *pArr, int n)
 getmin PROC C USES esi ecx, pArr:DWORD, n:DWORD
     mov  esi, pArr
     mov  ecx, n
@@ -25,7 +24,6 @@ gm_done:
     ret
 getmin ENDP
 
-; int getmax(const int *pArr, int n)
 getmax PROC C USES esi ecx, pArr:DWORD, n:DWORD
     mov  esi, pArr
     mov  ecx, n

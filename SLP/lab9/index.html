@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Музыкальный сервис</title>
+</head>
+<body>
+    <header>
+        <h1>SLP Music</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Поиск и фильтрация</h2>
+            <label for="search">Поиск</label>
+            <input type="search" id="search">
+            <label for="genre">Жанр</label>
+            <select id="genre">
+                <option>Все жанры</option>
+                <option>Synthwave</option>
+                <option>Ambient</option>
+                <option>Indie</option>
+                <option>Chillout</option>
+                <option>Electro</option>
+                <option>Lo-Fi</option>
+            </select>
+        </section>
+
+        <section>
+            <h2>Каталог</h2>
+            <p id="catalog-count"></p>
+            <div id="catalog"></div>
+        </section>
+
+        <section>
+            <h2>Мой плейлист</h2>
+            <p id="playlist-count"></p>
+            <ul id="playlist"></ul>
+            <p id="playlist-duration"></p>
+        </section>
+
+        <section>
+            <h2>Проигрыватель</h2>
+            <p>Композиция не выбрана</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

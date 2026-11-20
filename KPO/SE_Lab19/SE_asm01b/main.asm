@@ -20,7 +20,6 @@ crlf    DB 13, 10
 
 .code
 
-; IntToStr(val, pBuf) -> EAX = длина строки (Windows-1251)
 IntToStr PROC STDCALL USES ebx edi, val:DWORD, pBuf:DWORD
     mov  edi, pBuf
     mov  eax, val
@@ -51,16 +50,17 @@ store:
     ret
 IntToStr ENDP
 
-; print(pStr, len)
 print PROC STDCALL USES esi, pStr:DWORD, len:DWORD
     LOCAL wr:DWORD
+    LOCAL hOut:DWORD
     invoke GetStdHandle, -11
-    invoke WriteConsoleA, eax, pStr, len, ADDR wr, 0
+    mov  hOut, eax
+    invoke WriteConsoleA, hOut, pStr, len, ADDR wr, 0
     ret
 print ENDP
 
-PUBLIC main
-main PROC C
+PUBLIC start
+start PROC C
     invoke getmin, OFFSET arr, 10
     mov  mn, eax
     invoke getmax, OFFSET arr, 10
@@ -74,6 +74,6 @@ main PROC C
     invoke print, OFFSET buf, ebx
     invoke print, OFFSET crlf, 2
     invoke ExitProcess, 0
-main ENDP
+start ENDP
 
-END main
+END

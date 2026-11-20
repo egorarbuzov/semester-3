@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\holmes\\source\\repos\\se_lab18v2\\se_lab18v2\\lex.h",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\users\\holmes\\source\\repos\\se_lab18v2\\se_lab18v2\\in.h",
+            "c:\\users\\holmes\\source\\repos\\se_lab18v2\\se_lab18v2\\lt.h",
+            "c:\\users\\holmes\\source\\repos\\se_lab18v2\\se_lab18v2\\it.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

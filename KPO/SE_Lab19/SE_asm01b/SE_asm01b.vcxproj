@@ -56,7 +56,7 @@
     </MASM>
     <Link>
       <SubSystem>Console</SubSystem>
-      <EntryPointSymbol>_main</EntryPointSymbol>
+      <EntryPointSymbol>_start</EntryPointSymbol>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <AdditionalDependencies>kernel32.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -69,7 +69,7 @@
     </MASM>
     <Link>
       <SubSystem>Console</SubSystem>
-      <EntryPointSymbol>_main</EntryPointSymbol>
+      <EntryPointSymbol>_start</EntryPointSymbol>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <AdditionalDependencies>kernel32.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -80,12 +80,8 @@
     <MASM Include="main.asm" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="readme.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\SE_asm01a\SE_asm01a.vcxproj">
       <Project>{A0E1B2C3-1111-4A2B-9C3D-000000000002}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <LinkLibraryDependencies>true</LinkLibraryDependencies>
     </ProjectReference>
   </ItemGroup>

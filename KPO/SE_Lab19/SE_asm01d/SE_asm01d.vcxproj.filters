@@ -9,10 +9,6 @@
       <UniqueIdentifier>{9A1CDD90-FA22-4e2A-8D9C-A5DD343CCF05}</UniqueIdentifier>
       <Extensions>h;hpp</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{A0B27EA1-5E34-4512-BE6D-3E55A85DDA06}</UniqueIdentifier>
-      <Extensions>txt;md</Extensions>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="minmax.cpp">
@@ -23,10 +19,5 @@
     <ClInclude Include="minmax.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="readme.txt">
-      <Filter>Resource Files</Filter>
-    </None>
   </ItemGroup>
 </Project>

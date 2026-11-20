@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Win32" />
+  </Configurations>
+  <Project Path="SE_asm01/SE_asm01.vcxproj" />
+  <Project Path="SE_asm01a/SE_asm01a.vcxproj" />
+  <Project Path="SE_asm01b/SE_asm01b.vcxproj" />
+  <Project Path="SE_asm01c/SE_asm01c.vcxproj" />
+  <Project Path="SE_asm01d/SE_asm01d.vcxproj" />
+  <Project Path="SE_asm01e/SE_asm01e.vcxproj" />
+</Solution>
